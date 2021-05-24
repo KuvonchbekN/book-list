@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3d84b8, 77acf1 */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav{
+    display: block;
+    text-align: center;
+}
+
+nav h1{
+    font-size: 3em;
+    font-weight: 400;
+    padding: 30px;
+}
+
+nav i{
+    padding: 15px;
+    color: #0f3a72;
+}
+
+nav span{
+    color: #3d84b8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 2px;
+    font-size: 1.4em;
+}
+
+label{
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.submit-btn{
+    padding: 8px 0;
+    font-size: 1.1em;
+    background-color: #4974ac;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.submit-btn:hover{
+    color: #ffffff;
+    background-color:#6da0e2;
+    cursor: pointer;
+}
+
+.table{
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.table-headings{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-top: 1px solid rgb(53, 48, 48);
+    border-bottom: 1px solid rgb(61, 58, 58);
+    padding: 4px 0;
+}
+
+.div-el{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.div-el:nth-child(odd){
+    background-color: rgb(175, 175, 177);
+}
+
+.title-li{
+    flex: 1;
+    text-align: center;
+}
+
+.author-li{
+    flex: 1;
+    text-align: center;
+}
+
+.ISBN-li{
+    flex: 1;
+    text-align: center;
+}
+
+.x-btn{
+    padding: 3px;
+    border: none;
+    outline: none;
+    background-color: #c44848;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.x-btn i{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-btn:hover{
+    color: #bb4e4e;
+    background-color: #fffdfd;
+}
+
+.x-btn:hover i{
+    color: #c44848;
+}
+
+.remove{
+    transform: rotate(10deg);
+    opacity: .1;
+    transition: all .3s ease;
+}
+
